@@ -14,6 +14,12 @@ public class Main {
 
 
 
+        System.out.println(circle.calculatePerimetr());
+        System.out.println(triangle.calculatePerimetr());
+        System.out.println(square.calculatePerimetr());
+        System.out.println(rectangle.calculatePerimetr());
+
+
 
 
     }
