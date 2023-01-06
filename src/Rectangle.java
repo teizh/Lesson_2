@@ -1,0 +1,16 @@
+public class Rectangle extends Figure{
+
+
+    private Integer sideA, sideB;
+    public Rectangle(String name, Integer sideA, Integer sideB) {
+       super(name);
+        this.sideA = sideA;
+        this.sideB = sideB;
+    }
+    @Override
+    public Integer calculatePerimetr () {
+        return sideA*4;
+    }
+
+
+}
