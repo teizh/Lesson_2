@@ -1,13 +1,15 @@
+package Figure;
+
 public class Circle extends Figure {
 
     private Integer radius;
 
     public Circle(String name, Integer radius) {
-       super(name);
+        super(name);
         this.radius = radius;
     }
 
-@Override
+    @Override
     public Integer calculatePerimetr() {
 
         return (int) (2 * Math.PI * radius);

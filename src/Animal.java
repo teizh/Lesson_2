@@ -1,3 +1,4 @@
+import common_interface.Drawable;
 
 public abstract class Animal implements Drawable {
 private String name;

@@ -1,3 +1,6 @@
+package Figure;
+
+
 public class Rectangle extends Figure {
 
 
