@@ -15,6 +15,7 @@ public class Triangle extends Figure {
     public Integer calculatePerimetr() {
         return sideA + sideB + sideC;
     }
+
     @Override
     public void draw() {
         super.draw();

@@ -1,4 +1,6 @@
-public class Cat extends Animal{
+package Animal;
+
+public class Cat extends Animal {
 public Cat (String name, Integer age) {
     super(name,age);
 }
@@ -7,5 +9,10 @@ public Cat (String name, Integer age) {
     public void draw() {
         super.draw();
         System.out.println("\uD83D\uDC08");
+    }
+
+    @Override
+    public void callSound() {
+
     }
 }

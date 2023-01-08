@@ -1,6 +1,5 @@
 package Figure;
 
-
 public class Square extends Figure {
 
 

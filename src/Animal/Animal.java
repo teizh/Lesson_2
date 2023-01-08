@@ -1,6 +1,9 @@
-import common_interface.Drawable;
+package Animal;
 
-public abstract class Animal implements Drawable {
+import common_interface.Drawable;
+import common_interface_2.SoundProducable;
+
+public abstract class Animal implements Drawable, SoundProducable {
 private String name;
 private Integer age;
 
@@ -13,6 +16,9 @@ private Integer age;
     public void draw(){
 
     }
+    @Override
+    public void callSound(){}
+
 
     public String getName() {
         return name;
@@ -21,6 +27,8 @@ private Integer age;
     public Integer getAge() {
         return age;
     }
+
+
 }
 
 
