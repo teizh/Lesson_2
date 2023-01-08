@@ -1,4 +1,4 @@
-public class Circle extends Figure{
+public class Circle extends Figure {
 
     private Integer radius;
 
@@ -9,7 +9,13 @@ public class Circle extends Figure{
 
 @Override
     public Integer calculatePerimetr() {
+
         return (int) (2 * Math.PI * radius);
     }
 
+    @Override
+    public void draw() {
+        super.draw();
+        System.out.println("⦿");
+    }
 }

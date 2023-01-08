@@ -1,7 +1,11 @@
 public class Cat extends Animal{
+public Cat (String name, Integer age) {
+    super(name,age);
+}
 
-    Cat cat=new Cat ();
-
-
-
+    @Override
+    public void draw() {
+        super.draw();
+        System.out.println("\uD83D\uDC08");
+    }
 }

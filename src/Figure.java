@@ -1,8 +1,8 @@
-public abstract class Figure {
+public abstract class Figure implements Drawable {
     private String name;
 
     public Figure(String name) {
-
+this.name=name;
     }
 
     public String getName() {
@@ -13,6 +13,11 @@ public abstract class Figure {
         this.name = name;
     }
 
+
     public abstract Integer calculatePerimetr ();
 
+    @Override
+    public void draw() {
+
+    }
 }
